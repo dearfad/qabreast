@@ -20,7 +20,9 @@ document_chain = create_stuff_documents_chain(llm, prompt)
 retriever = vector.as_retriever()
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
-if prompt := st.text_input('请输入你的问题：'):
+st.title('乳腺疾病专业问答')
+st.caption('参考：2022版中国乳腺癌随诊随访与健康管理指南')
+if prompt := st.text_input('请输入你的问题：', '子宫内膜增厚的标准是什么？'):
     answer_placeholder = st.empty()
     response = retrieval_chain.invoke({"input": prompt})
     answer_placeholder.write(response["answer"])
