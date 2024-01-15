@@ -8,9 +8,14 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
-@st.cache_resource(show_spinner=False)
-def get_answer(prompt):
+@st.cache_resource(show_spinner=True)
+def get_llm():
     llm = Tongyi()
+    return llm
+
+@st.cache_data(show_spinner=True)
+def get_answer(prompt):
+    llm = get_llm()
     loader = DirectoryLoader('./references/', glob="**/*.txt")
     docs = loader.load()
     embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
