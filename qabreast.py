@@ -8,7 +8,7 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
-@st.cache_data(show_spinner=True):
+@st.cache_data(show_spinner=True)
 def get_chain(llm):
     loader = DirectoryLoader('./references/', glob="**/*.txt")
     docs = loader.load()
