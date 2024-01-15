@@ -16,7 +16,7 @@ from langchain.chains import create_retrieval_chain
 #     return docs, embeddings
 
 @st.cache_resource(show_spinner=True)
-def get_answer(prompt):
+def get_answer(query):
     llm = Tongyi()
     # docs, embeddings = get_data()
     loader = DirectoryLoader('./references/', glob="**/*.txt")
@@ -29,7 +29,7 @@ def get_answer(prompt):
     prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
     document_chain = create_stuff_documents_chain(llm, prompt)
     retrieval_chain = create_retrieval_chain(retriever, document_chain)
-    response = retrieval_chain.invoke({"input": prompt})
+    response = retrieval_chain.invoke({"input": query})
     return response["answer"]
 
 st.title('乳腺疾病专业问答')
@@ -37,5 +37,5 @@ st.caption('参考：2022版中国乳腺癌随诊随访与健康管理指南')
 if prompt := st.text_input('请输入你的问题：', '子宫内膜增厚的标准是什么？'):
     answer_placeholder = st.empty()
     with st.spinner(text="增强检索中..."):
-        answer = get_answer(prompt)
+        answer = get_answer(query)
     answer_placeholder.write(answer)
