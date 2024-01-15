@@ -20,6 +20,6 @@ document_chain = create_stuff_documents_chain(llm, prompt)
 retriever = vector.as_retriever()
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
 
-prompt = st.input()
+prompt = st.text_input()
 response = retrieval_chain.invoke({"input": "曲妥珠单抗诱导的心肌病表现是什么?"})
 st.write(response["answer"])
