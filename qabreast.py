@@ -34,7 +34,7 @@ def get_answer(query):
 
 st.title('乳腺疾病专业问答')
 st.caption('参考：2022版中国乳腺癌随诊随访与健康管理指南')
-if prompt := st.text_input('请输入你的问题：', '子宫内膜增厚的标准是什么？'):
+if query := st.text_input('请输入你的问题：', '子宫内膜增厚的标准是什么？'):
     answer_placeholder = st.empty()
     with st.spinner(text="增强检索中..."):
         answer = get_answer(query)
