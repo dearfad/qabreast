@@ -20,7 +20,7 @@ def get_data():
     prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
     return retriever, prompt
 
-@st.cache_resource(show_spinner=True)
+# @st.cache_resource(show_spinner=True)
 def get_answer(prompt):
     llm = Tongyi()
     retriever, prompt = get_data()
