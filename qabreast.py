@@ -10,8 +10,8 @@ from langchain.chains import create_retrieval_chain
 
 @st.cache_resource(show_spinner=True)
 def get_llm():
-    llm = Tongyi()
-    return llm
+    llm_cache = Tongyi()
+    return llm_cache
 
 @st.cache_data(show_spinner=True)
 def get_answer(prompt):
