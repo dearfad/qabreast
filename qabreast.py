@@ -17,13 +17,13 @@ def get_data():
     documents = text_splitter.split_documents(docs)
     vector = FAISS.from_documents(documents, embeddings)
     retriever = vector.as_retriever()
-    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
-    return retriever, prompt
+    return retriever
 
-# @st.cache_resource(show_spinner=True)
+@st.cache_resource(show_spinner=True)
 def get_answer(prompt):
     llm = Tongyi()
-    retriever, prompt = get_data()
+    retriever = get_data()
+    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
     document_chain = create_stuff_documents_chain(llm, prompt)
     retrieval_chain = create_retrieval_chain(retriever, document_chain)
     response = retrieval_chain.invoke({"input": prompt})
