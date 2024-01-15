@@ -4,6 +4,7 @@ from langchain_community.document_loaders import DirectoryLoader
 from langchain.embeddings.huggingface import HuggingFaceEmbeddings
 from langchain.text_splitter import RecursiveCharacterTextSplitter
 from langchain_community.vectorstores import FAISS
+from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
@@ -18,5 +19,7 @@ prompt = ChatPromptTemplate.from_template("""Answer the following question based
 document_chain = create_stuff_documents_chain(llm, prompt)
 retriever = vector.as_retriever()
 retrieval_chain = create_retrieval_chain(retriever, document_chain)
+
+prompt = st.input()
 response = retrieval_chain.invoke({"input": "曲妥珠单抗诱导的心肌病表现是什么?"})
 st.write(response["answer"])
