@@ -9,8 +9,7 @@ from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
 @st.cache_data(show_spinner=True)
-def get_retriever_chain():
-    llm = Tongyi()
+def get_retriever():
     loader = DirectoryLoader('./references/', glob="**/*.txt")
     docs = loader.load()
     embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
@@ -18,15 +17,16 @@ def get_retriever_chain():
     documents = text_splitter.split_documents(docs)
     vector = FAISS.from_documents(documents, embeddings)
     retriever = vector.as_retriever()
-    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
-    document_chain = create_stuff_documents_chain(llm, prompt)
-    retrieval_chain = create_retrieval_chain(retriever, document_chain)
-    return retrieval_chain
+    return retriever
 
 
 @st.cache_data(show_spinner=True)
 def get_answer(query):
-    retriever_chain = get_retriever_chain()
+    llm = Tongyi()
+    retriever = get_retriever()
+    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
+    document_chain = create_stuff_documents_chain(llm, prompt)
+    retrieval_chain = create_retrieval_chain(retriever, document_chain)
     response = retrieval_chain.invoke({"input": query})
     return response["answer"]
 
