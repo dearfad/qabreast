@@ -10,4 +10,5 @@ from langchain.chains import create_retrieval_chain
 llm = Tongyi()
 loader = DirectoryLoader('./references/', glob="**/*.txt")
 docs = loader.load()
+embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
 st.write('Hello Breast!')
