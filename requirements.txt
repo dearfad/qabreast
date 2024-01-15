@@ -3,3 +3,4 @@ langchain
 unstructured
 dashscope
 sentence-transformers
+faiss-cpu
