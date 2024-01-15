@@ -8,17 +8,20 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain.chains.combine_documents import create_stuff_documents_chain
 from langchain.chains import create_retrieval_chain
 
-@st.cache_data(show_spinner=True)
-def get_data():
-    loader = DirectoryLoader('./references/', glob="**/*.txt")
-    docs = loader.load()
-    embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
-    return docs, embeddings
+# @st.cache_data(show_spinner=True)
+# def get_data():
+#     loader = DirectoryLoader('./references/', glob="**/*.txt")
+#     docs = loader.load()
+#     embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
+#     return docs, embeddings
 
 @st.cache_resource(show_spinner=True)
 def get_answer(prompt):
     llm = Tongyi()
-    docs, embeddings = get_data()
+    # docs, embeddings = get_data()
+    loader = DirectoryLoader('./references/', glob="**/*.txt")
+    docs = loader.load()
+    embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
     text_splitter = RecursiveCharacterTextSplitter(chunk_size=256, chunk_overlap=32)
     documents = text_splitter.split_documents(docs)
     vector = FAISS.from_documents(documents, embeddings)
