@@ -13,16 +13,16 @@ def get_data():
     loader = DirectoryLoader('./references/', glob="**/*.txt")
     docs = loader.load()
     embeddings = HuggingFaceEmbeddings(model_name='BAAI/bge-small-zh-v1.5')
-    text_splitter = RecursiveCharacterTextSplitter(chunk_size=256, chunk_overlap=32)
-    documents = text_splitter.split_documents(docs)
-    vector = FAISS.from_documents(documents, embeddings)
-    retriever = vector.as_retriever()
-    return retriever
+    return docs, embeddings
 
 @st.cache_resource(show_spinner=True)
 def get_answer(prompt):
     llm = Tongyi()
-    retriever = get_data()
+    docs, embeddings = get_data()
+    text_splitter = RecursiveCharacterTextSplitter(chunk_size=256, chunk_overlap=32)
+    documents = text_splitter.split_documents(docs)
+    vector = FAISS.from_documents(documents, embeddings)
+    retriever = vector.as_retriever()
     prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
     document_chain = create_stuff_documents_chain(llm, prompt)
     retrieval_chain = create_retrieval_chain(retriever, document_chain)
