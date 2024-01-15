@@ -2,3 +2,4 @@ streamlit
 langchain
 unstructured
 dashscope
+sentence-transformers
