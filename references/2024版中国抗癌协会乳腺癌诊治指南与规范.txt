@@ -1,0 +1,89 @@
+《中国癌症杂志》2023年第33卷第12期
+ CHINA ONCOLOGY 2023 Vol.33 No.12
+指南与共识
+中国抗癌协会乳腺癌诊治指南与规范（2024年版）
+中国抗癌协会乳腺癌专业委员会，中华医学会肿瘤学分会乳腺肿瘤学组
+［摘要］世界卫生组织（World Health Organization，WHO）国际癌症研究机构最新发布的数据显示，乳腺癌现已成为全球发病率最高的恶性肿瘤，严重危害广大女性的身心健康。中国抗癌协会乳腺癌专业委员会2007年首次制订《中国抗癌协会乳腺癌诊治指南与规范（2007版）》以来共更新8版，指南一直与时俱进，兼顾证据的权威性、知识的前沿性和在广大基层医疗机构的适用性。本次制订的《中国抗癌协会乳腺癌诊治指南与规范（2024年版）》在2021年版的基础上进行了相应的更新，纳入了乳腺癌诊断和分类的新理念、精准治疗的新工具、手术操作的新规范和综合治疗的新方案，旨在为乳腺癌防控及诊治领域的医务工作者提供指导和依据。
+［关键词］ 乳腺癌；诊断；治疗；指南
+中图分类号：R737.9 　文献标志码：A　　DOI: 10.19401/j.cnki.1007-3639.2023.12.004
+Guidelines for breast cancer diagnosis and treatment by China Anti-cancer Association (2024 edition)
+The Society of Breast Cancer China Anti-Cancer Association, Breast Oncology Group of the Oncology Branch of the Chinese Medical Association
+Correspondence to: SHAO Zhimin, E-mail: zhimingshao@fudan.edu.cn.
+［Abstract］According to the latest data released by the International Agency for Research on Cancer of the World Health Organization (WHO), breast cancer has become the malignant tumor with the highest incidence rate around the world, seriously endangering the physical and mental health of women. Since the Society of Breast Cancer China Anti-Cancer Association firstly formulated “guidelines for breast cancer diagnosis and treatment by China Anti-Cancer Association (2007 edition)” in 2007, a total of 8 editions have been updated. The guidelines have been keeping pace with the times, taking into account the authority of evidence, the cutting-edge knowledge and the practicality in the vast grassroots. The “guidelines for breast cancer diagnosis and treatment by China Anti-Cancer Association (2024 edition)” has been updated on the basis of the 2021 Edition, incorporating new concepts of 
+breast cancer diagnosis and classification, new methods for precision treatment, new specifications for surgical procedures and new plans for comprehensive treatment, aiming to provide guidance and basis for medical staff in the field of breast cancer prevention, control, diagnosis and treatment.
+［Key words］Breast cancer; Diagnosis; Treatment; Guideline
+通信作者：邵志敏（ORCID：0000-0002-4503-148X），主任医师，教授，复旦大学肿瘤研究所所长、复旦大学乳腺癌研究所所长，复旦大学附属肿瘤医院大外科主任兼乳腺外科主任，E-mail: zhimingshao@fudan.edu.cn。
+
+1  乳腺癌筛查指南 1093
+2  常规乳腺X线检查和报告规范 1095
+3  乳腺超声检查和报告规范 1099
+4  常规乳腺MRI检查和报告规范 1103
+5  影像学引导下的乳腺活体组织病理学检查指南 1106
+6  乳腺癌病理学诊断报告规范 1107
+7  浸润性乳腺癌保乳治疗临床指南 1112
+8  乳腺癌前哨淋巴结活检临床指南 1118
+9  乳腺癌全乳切除术后放疗临床指南 1122
+10  乳腺癌全身治疗指南 1124
+11  乳腺癌患者康复管理共识 1143
+12  乳房重建与整形临床指南 1151
+13  乳腺原位癌治疗指南 1154
+14  乳腺癌局部和区域淋巴结复发诊治指南 1157
+15  乳腺癌骨健康管理和骨转移的临床诊疗指南 1159
+16  乳腺癌患者BRCA1/2基因检测与临床应用 1164
+17  乳腺癌多基因精准检测和精准治疗指南 1165
+18  乳腺肿瘤整合医学的其他问题 1166
+附    录 1173
+
+1 乳腺癌筛查指南
+1.1  乳腺癌筛查的定义、目的及分类
+⑴ 肿瘤筛查，或称作普查，是针对无症状人群的一种防癌措施，而针对有症状人群的医学检查称为诊断。
+⑵ 乳腺癌筛查是通过有效、简便、经济的乳腺检查措施，对无症状妇女开展筛查，以期早期发现、早期诊断及早期治疗。其最终目的是要降低人群乳腺癌的死亡率。
+⑶ 筛查分为机会性筛查（opportunistic screening）和群体筛查（mass screening）。机会性筛查是指医疗保健机构为因各种情况前来就诊的适龄女性进行的乳腺筛查，或女性个体主动或自愿到提供乳腺筛查的医疗保健机构进行检查；群体筛查是社区或单位实体借助医疗保健机构的设备、技术和人员有组织地为适龄女性提供乳腺筛查服务。
+1.2  女性参加乳腺癌筛查的起始和终止年龄
+⑴ 虽然有些国外指南建议50岁以上进行筛查，但大部分指南建议40岁作为乳腺癌筛查的
+起始年龄。中国女性乳腺癌的发病高峰年龄为45 ~ 54岁，比欧美国家要提前10年左右，因此本指南建议一般风险人群乳腺癌筛查的起始年龄为40岁。但对于乳腺癌高危人群可将筛查起始年龄提前到40岁之前。
+⑵ 对于乳腺癌影像学筛查的终止年龄，大部分国外群体筛查都推荐把65 ~ 70岁作为筛查的上限。但是，老年人乳腺癌的发病率仍然较高，因此本指南认为老年人是否停止筛查需要考虑个人的身体健康状况、预期寿命及各种合并症情况。如果合并症多，预期寿命有限，则可适当减免乳腺癌筛查。因此，对于70岁以上的老年人可以考虑机会性筛查。
+1.3  用于乳腺癌筛查的措施
+1.3.1  乳腺X线检查
+⑴ 乳腺X线检查对降低40岁以上女性乳腺癌死亡率的作用已经得到了国内外大多数学者的认可。
+⑵ 建议对每侧乳房常规摄2个体位，即头足轴（craniocaudal，CC）位和内外侧斜（mediolateral oblique，MLO）位。
+⑶ 乳腺X线影像应经过2名以上专业放射科医师独立阅片。
+⑷ 乳腺X线筛查对50岁以上亚洲妇女诊断的准确性高，但对40岁以下及致密乳腺诊断的准确性欠佳。不建议对40岁以下、无明确乳腺癌高危因素或临床体检未发现异常的女性进行乳腺X线检查。
+⑸ 常规乳腺X线检查的射线剂量低，不会危害女性健康，但正常女性无需短期内反复进行乳腺X线检查。
+1.3.2  乳腺超声检查
+目前已经有较多的证据提示在乳腺X线检查的基础上联合乳腺超声检查较之单独应用乳腺X线检查有更高的筛查灵敏度，尤其是针对乳腺X线筛查提示致密型乳腺（c型或d型），因此乳腺超声检查可推荐作为乳腺X线筛查的有效补充。但在人群筛查中，增加超声检查显然会增加筛查的成本，其成本效益也相应减弱。此外，乳腺超声检查单独作为筛查措施的有效性尚未得到充分的证据证实。
+1.3.3  乳腺临床体检
+目前尚无证据显示，乳腺临床体检单独作为乳腺癌筛查的方法可以提高乳腺癌早期的诊断率，降低患者的死亡率。但在经济欠发达、设备条件有限及女性对疾病认知度较不充分的地区仍可以作为一种选择。
+1.3.4  乳腺自我检查
+⑴ 乳腺自我检查并不能提高乳腺癌早期检出率，也不能降低患者的死亡率。
+⑵ 乳腺自我检查可能有助于提高女性的防癌意识，故仍鼓励基层医务工作者向女性传授每月1次乳腺自我检查的方法，建议绝经前妇女选择月经来潮后7 ~ 14 d进行。
+1.3.5  乳腺磁共振成像（magnetic resonance imaging，MRI）检查
+⑴ MRI检查可作为乳腺X线检查、乳腺临床体检或乳腺超声检查发现的疑似病例的补充检查措施。
+⑵ 可与乳腺X线检查联合用于BRCA1/2基因突变携带者的乳腺癌筛查。
+1.3.6  其他检查
+目前的证据不支持近红外线扫描、核素扫描、导管灌洗及血氧检测等检查作为有效的乳腺癌筛查方法。
+1.4  一般风险女性乳腺癌筛查指南
+乳腺癌一般风险女性即除了乳腺癌高危人群（定义见1.5.1节）以外的所有女性。
+1.4.1  20~39岁
+不推荐对该年龄段人群进行乳腺筛查。
+1.4.2  40~70岁
+⑴ 适合机会性筛查和群体筛查。
+⑵ 每1 ~ 2年进行1次乳腺X线检查，对致密型乳腺（乳腺X线检查提示腺体为c型或d型）推荐与B超检查联合。
+1.4.3  70岁以上
+⑴ 适合机会性筛查。
+⑵ 每1 ~ 2年进行1次乳腺X线检查。
+1.5  乳腺癌高危人群筛查意见
+建议对乳腺癌高危人群提前进行筛查（小于40岁），筛查频度推荐每年1次，筛查手段除了乳腺X线检查外，还可采用MRI等影像学手段。
+1.5.1  罹患乳腺癌高危人群的定义
+存在下列情况之一者被认为是罹患乳腺癌高危人群：
+⑴ 有明显的乳腺癌遗传倾向者，主要判断内容如下：
+① 一级亲属有乳腺癌或卵巢癌史；② 二级亲属50岁前，患乳腺癌2人及以上；③ 二级亲属50岁前，患卵巢癌2人及以上；④ 至少1位一级亲属携带已知BRCA1/2基因致病性遗传突变，或自身携带BRCA1/2基因致病性遗传突变（需要行BRCA遗传检测的对象见附录Ⅰ）。
+⑵ 既往有乳腺导管或小叶不典型增生或小叶原位癌（lobular carcinoma in situ，LCIS）的患者。
+⑶ 既往30岁前接受过胸部放疗。
+⑷ 根据评估对象的年龄、种族、初潮年龄、初产年龄、个人乳腺疾病史、乳腺癌家族史和乳腺活检次数等多个风险因子，利用Gail模型进行罹患乳腺癌风险评估。如果受试者5年内发病风险≥1.67%，则被认为是高风险个体。注：一级亲属指母亲、女儿及姐妹；二级亲属指姑、姨、祖母和外祖母。
+1.5.2  乳腺癌高危人群的筛查推荐策略与管理
+⑴ 推荐起始年龄更早（＜40岁）开展乳腺筛查。
+⑵ 每年1次乳腺X线检查。
+⑶ 每6 ~ 12个月1次乳腺超声检查。
+⑷ 每6 ~ 12个月1次乳腺体检。
+⑸ 必要时联合乳腺增强MRI。
