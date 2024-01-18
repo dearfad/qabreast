@@ -26,7 +26,7 @@ def format_answer(answer):
 def get_answer(query):
     llm = Tongyi()
     retriever = get_retriever()
-    prompt = ChatPromptTemplate.from_template("""Answer the following question based only on the provided context:<context>{context}</context> Question: {input}""")
+    prompt = ChatPromptTemplate.from_template("""请根据上下文用简体中文回答下面的问题:<context>{context}</context> 问题: {input}""")
     document_chain = create_stuff_documents_chain(llm, prompt)
     retrieval_chain = create_retrieval_chain(retriever, document_chain)
     response = retrieval_chain.invoke({"input": query})
