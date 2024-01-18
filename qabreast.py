@@ -38,6 +38,6 @@ if query := st.text_input('请输入你的问题：', '子宫内膜增厚的标�
         try:
             answer = get_answer(query)
         except ValueError as e:
-            answer_placeholder.write('输入有问题')
+            answer_placeholder.write('数据检查错误，输入或者输出包含疑似敏感内容被绿网拦截')
         else:    
             answer_placeholder.write(answer)
